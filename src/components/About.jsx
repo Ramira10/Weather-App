@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import style from "./About.module.css"
 import Nav from "./Nav";
 
@@ -20,6 +21,7 @@ export default function About() {
             <a className={style.link} href="https://github.com/ramira10/" target="_blank">
                 <h4> GitHub </h4>
             </a>
+            <Link to="/home"><button className={style.btn}>HOME</button></Link>
 
         </div>
 

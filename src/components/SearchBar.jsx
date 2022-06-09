@@ -6,17 +6,23 @@ export default function SearchBar({onSearch}) {
 
   return (
     <form className={estilos.bar} onSubmit={(e) => {
-      e.preventDefault(); 
+      e.preventDefault();
       onSearch(city);
       setCity('');
     }}>
+      {
+        window.location.href.includes("/home") ? 
+        <div>
       <input
-        type="text"
-        placeholder="Write here..."
-        value={city}
-        onChange={e => setCity(e.target.value)}
+      type="text"
+      placeholder="Write here..."
+      value={city}
+      onChange={e => setCity(e.target.value)}
       />
-      <input className={estilos.btn} type="submit" value="ADD CITY" />
+      <input className={estilos.btn} type="submit" value="Add City" />
+      </div>
+      : <div></div>
+    }
     </form>
   );
 }

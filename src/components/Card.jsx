@@ -3,7 +3,7 @@ import estilos from './Card.module.css';
 import { Link } from 'react-router-dom';
 
 export default function Card({ min, max, wind, name, img, onClose, id }) {
-  let prom = (min + max) / 2
+  let prom = Math.round((min + max) / 2)
   return (
     <div className={estilos.contenedor}>
       <button className={estilos.btn} onClick={onClose}>X</button>

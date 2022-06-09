@@ -11,7 +11,15 @@ export default function About() {
             <Nav></Nav>
             <br></br>
             <br></br>
-            <h3><b>Matías Ramira</b>  - <b>Full Stack Developer</b></h3>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <h3 className={style.title}><b>Matías Ramira</b>  - <b>Full Stack Developer</b></h3>
             <h4 className={style.description}> Soy desarrollador Full Stack con orientación al Back-end y estudiante de ingeniería en informática. Tengo 22 años y vivo en Argentina.</h4>
             <br></br>
             <h4> Si te interesa conocer más sobre mí... </h4>

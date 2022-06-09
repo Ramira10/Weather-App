@@ -4,8 +4,8 @@
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    width: 300px;
-    height: 175px;
+    width: 250px;
+    height: 300px;
     position: relative;  
     margin-top: 100px; 
     margin-left: 100px;
@@ -43,23 +43,34 @@
     outline: none;
   }
 
-.infoCont{ 
-    padding-top: 10px;
-    position: relative;
-    left: 40px;
+.cont{
     display: flex;
-    justify-content: space-around;
-    margin-top: auto;
-    margin-bottom: auto;
+    flex-direction: row;
+    padding-top: 50px;
 }
 
-.infoCont img{
-    position: relative;
-    top: -20px;
-    right: 20px;
+.img {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.temp {
+    font-size: 90px;
+    color: white;
+    margin-left: 10px;
 }
 
 .titleStyle{ 
-    padding-top: 30px;
-    color: #000000;
+    padding: 20px;
+    color: white;
+}
+
+.titleStyle:hover{ 
+    color: rgba(255, 0, 0, 0.568);
+    transition: 0.3s;
+}
+
+.infoTemp {
+    color: white
 }

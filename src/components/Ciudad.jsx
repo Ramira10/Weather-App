@@ -6,7 +6,7 @@ export default function Ciudad({city}) {
     return (
         <div className="ciudad">
                 <div className={style.container}>
-                    <h1 className={style.title}>{city.name}</h1>
+                    <h1 className={style.title}>🌍{city.name}🌍</h1>
                     <div className="info">
                         <h2>Temperature: {city.temp} ºC</h2>
                         <h2>Weather: {city.weather}</h2>

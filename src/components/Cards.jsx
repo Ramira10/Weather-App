@@ -8,16 +8,17 @@ export default function Cards({ cities, onClose }) {
       <div className={estilos.cardsStyle}>
         {
           cities.length ?
-            cities.map(c =>
-              <Card
-                key={c.id}
-                max={c.max}
-                min={c.min}
-                name={c.name}
-                img={c.img}
-                onClose={() => onClose(c.id)}
-                id={c.id}
-              />
+          cities.map(c =>
+            <Card
+            key={c.id}
+            max={c.max}
+            min={c.min}
+            wind={c.wind}
+            name={c.name}
+            img={c.img}
+            onClose={() => onClose(c.id)}
+            id={c.id}
+            />
             )
 
             : <div className={estilos.load}>

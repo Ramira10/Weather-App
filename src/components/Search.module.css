@@ -1,0 +1,39 @@
+.bar{
+  display:flex;
+  justify-content: flex-end;
+  position: absolute;
+  top:22px;
+  right: 15px;
+}
+
+.bar input{
+    border:yellow solid 1px;
+    border-radius: 5px;
+}
+
+.bar input:focus {
+  outline: none;
+}
+
+.btn{
+    /* background: rgba(255, 255, 255, 0); */
+    border: blue solid 2px;
+    background-color: rgba(0, 0, 0, 0.0);
+    border-radius: 5px;
+    color: white;
+    margin-left: 5px;
+    box-shadow: 4px 5px 5px 1px rgba(0,0,0,0.5);
+    transition: all 0.4s ease;
+    font-weight: bold;
+  }
+  
+  .btn:hover {
+    background-color: rgba(230, 230, 230, 0.365);
+    color: yellow;
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+
+  

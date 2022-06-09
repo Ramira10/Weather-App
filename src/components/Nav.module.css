@@ -1,0 +1,46 @@
+.titleStyle{
+    background-color: rgba(56, 159, 255, 0.424);
+    display: flex;
+    justify-content: flex-start;
+    box-shadow: 4px 5px 5px 1px rgba(0,0,0,0.5);
+    border-radius: 50px;
+    position: relative;
+    top: 5px
+}
+
+.weather{
+    position: relative;
+    left:5px;
+    top: 15px;
+    color: white;
+}
+.weather:hover{
+    color: black;
+    transition: 0.3s;
+}
+
+.img{
+    height: 60px;
+    width: 60px;
+    position: relative;
+    left: 5px;
+}
+.img:hover{
+    filter:brightness(0);
+    transition: 0.3s;
+}
+
+.about{
+    color: white;
+    position: absolute;
+    left: 13%;
+    top: 2.4%
+}
+.about:hover{
+    color: black;
+    transition: 0.3s;
+}
+
+.des{
+    text-decoration: none;
+}

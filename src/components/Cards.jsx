@@ -24,7 +24,7 @@ export default function Cards({ cities, onClose }) {
             : <div className={estilos.load}>
               <h2 className={estilos.tlt}>Do you want to know today's weather?</h2>
               <h2 className={estilos.tlt}>SEARCH!</h2>
-              <img className={estilos.world} src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Rotating_earth_%28huge%29.gif/480px-Rotating_earth_%28huge%29.gif" />
+              <img className={estilos.world} src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Rotating_earth_%28huge%29.gif/480px-Rotating_earth_%28huge%29.gif" alt='Imagen no encontrada'/>
             </div>
         }
       </div>
